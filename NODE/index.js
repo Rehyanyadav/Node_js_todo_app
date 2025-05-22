@@ -1,7 +1,7 @@
 const app = require('./app');
 const port = 4000;
 const db  = require('./config/db');
-const userModel = require('./model/user.model');
+const userModel = require('./models/user.model');
 
 app.get('/',(req,res)=>{
 
